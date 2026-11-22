@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0f172a">
+  <title>Tetris Neon</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div>Pontos: <span id="score">0</span></div>
+    <div>Recorde: <span id="high">0</span></div>
+  </div>
+  <canvas id="tetris" width="240" height="480"></canvas>
+  <div class="controls">
+    <button id="left">◀</button>
+    <button id="down">▼</button>
+    <button id="right">▶</button>
+    <button id="rotate">↻</button>
+    <button id="drop" class="btn-drop">CAIR RÁPIDO (⤓)</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
